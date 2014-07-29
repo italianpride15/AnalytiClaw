@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF29116419874758000CEB25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF29116319874758000CEB25 /* Foundation.framework */; };
+		CF29116919874758000CEB25 /* AnalytiClaw.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF29116819874758000CEB25 /* AnalytiClaw.h */; };
+		CF29116B19874758000CEB25 /* AnalytiClaw.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29116A19874758000CEB25 /* AnalytiClaw.m */; };
+		CF29117219874758000CEB25 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF29117119874758000CEB25 /* XCTest.framework */; };
+		CF29117319874758000CEB25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF29116319874758000CEB25 /* Foundation.framework */; };
+		CF29117519874758000CEB25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF29117419874758000CEB25 /* UIKit.framework */; };
+		CF29117819874758000CEB25 /* libAnalytiClaw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF29116019874758000CEB25 /* libAnalytiClaw.a */; };
+		CF29117E19874758000CEB25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF29117C19874758000CEB25 /* InfoPlist.strings */; };
+		CF29118019874758000CEB25 /* AnalytiClawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF29117F19874758000CEB25 /* AnalytiClawTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF29117619874758000CEB25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF29115819874758000CEB25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF29115F19874758000CEB25;
+			remoteInfo = AnalytiClaw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF29115E19874758000CEB25 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CF29116919874758000CEB25 /* AnalytiClaw.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF29116019874758000CEB25 /* libAnalytiClaw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnalytiClaw.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF29116319874758000CEB25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF29116719874758000CEB25 /* AnalytiClaw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnalytiClaw-Prefix.pch"; sourceTree = "<group>"; };
+		CF29116819874758000CEB25 /* AnalytiClaw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalytiClaw.h; sourceTree = "<group>"; };
+		CF29116A19874758000CEB25 /* AnalytiClaw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalytiClaw.m; sourceTree = "<group>"; };
+		CF29117019874758000CEB25 /* AnalytiClawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalytiClawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF29117119874758000CEB25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF29117419874758000CEB25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF29117B19874758000CEB25 /* AnalytiClawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnalytiClawTests-Info.plist"; sourceTree = "<group>"; };
+		CF29117D19874758000CEB25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF29117F19874758000CEB25 /* AnalytiClawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalytiClawTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF29115D19874758000CEB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF29116419874758000CEB25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF29116D19874758000CEB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF29117219874758000CEB25 /* XCTest.framework in Frameworks */,
+				CF29117519874758000CEB25 /* UIKit.framework in Frameworks */,
+				CF29117319874758000CEB25 /* Foundation.framework in Frameworks */,
+				CF29117819874758000CEB25 /* libAnalytiClaw.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF29115719874758000CEB25 = {
+			isa = PBXGroup;
+			children = (
+				CF29116519874758000CEB25 /* AnalytiClaw */,
+				CF29117919874758000CEB25 /* AnalytiClawTests */,
+				CF29116219874758000CEB25 /* Frameworks */,
+				CF29116119874758000CEB25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF29116119874758000CEB25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF29116019874758000CEB25 /* libAnalytiClaw.a */,
+				CF29117019874758000CEB25 /* AnalytiClawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF29116219874758000CEB25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF29116319874758000CEB25 /* Foundation.framework */,
+				CF29117119874758000CEB25 /* XCTest.framework */,
+				CF29117419874758000CEB25 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF29116519874758000CEB25 /* AnalytiClaw */ = {
+			isa = PBXGroup;
+			children = (
+				CF29116819874758000CEB25 /* AnalytiClaw.h */,
+				CF29116A19874758000CEB25 /* AnalytiClaw.m */,
+				CF29116619874758000CEB25 /* Supporting Files */,
+			);
+			path = AnalytiClaw;
+			sourceTree = "<group>";
+		};
+		CF29116619874758000CEB25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF29116719874758000CEB25 /* AnalytiClaw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF29117919874758000CEB25 /* AnalytiClawTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF29117F19874758000CEB25 /* AnalytiClawTests.m */,
+				CF29117A19874758000CEB25 /* Supporting Files */,
+			);
+			path = AnalytiClawTests;
+			sourceTree = "<group>";
+		};
+		CF29117A19874758000CEB25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF29117B19874758000CEB25 /* AnalytiClawTests-Info.plist */,
+				CF29117C19874758000CEB25 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF29115F19874758000CEB25 /* AnalytiClaw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF29118319874758000CEB25 /* Build configuration list for PBXNativeTarget "AnalytiClaw" */;
+			buildPhases = (
+				CF29115C19874758000CEB25 /* Sources */,
+				CF29115D19874758000CEB25 /* Frameworks */,
+				CF29115E19874758000CEB25 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalytiClaw;
+			productName = AnalytiClaw;
+			productReference = CF29116019874758000CEB25 /* libAnalytiClaw.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF29116F19874758000CEB25 /* AnalytiClawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF29118619874758000CEB25 /* Build configuration list for PBXNativeTarget "AnalytiClawTests" */;
+			buildPhases = (
+				CF29116C19874758000CEB25 /* Sources */,
+				CF29116D19874758000CEB25 /* Frameworks */,
+				CF29116E19874758000CEB25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF29117719874758000CEB25 /* PBXTargetDependency */,
+			);
+			name = AnalytiClawTests;
+			productName = AnalytiClawTests;
+			productReference = CF29117019874758000CEB25 /* AnalytiClawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF29115819874758000CEB25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___MANTISCLAW___";
+			};
+			buildConfigurationList = CF29115B19874758000CEB25 /* Build configuration list for PBXProject "AnalytiClaw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF29115719874758000CEB25;
+			productRefGroup = CF29116119874758000CEB25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF29115F19874758000CEB25 /* AnalytiClaw */,
+				CF29116F19874758000CEB25 /* AnalytiClawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF29116E19874758000CEB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF29117E19874758000CEB25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF29115C19874758000CEB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF29116B19874758000CEB25 /* AnalytiClaw.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF29116C19874758000CEB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF29118019874758000CEB25 /* AnalytiClawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF29117719874758000CEB25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF29115F19874758000CEB25 /* AnalytiClaw */;
+			targetProxy = CF29117619874758000CEB25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF29117C19874758000CEB25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF29117D19874758000CEB25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF29118119874758000CEB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF29118219874758000CEB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF29118419874758000CEB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AnalytiClaw.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnalytiClaw/AnalytiClaw-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF29118519874758000CEB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AnalytiClaw.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnalytiClaw/AnalytiClaw-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CF29118719874758000CEB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnalytiClaw/AnalytiClaw-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnalytiClawTests/AnalytiClawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF29118819874758000CEB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnalytiClaw/AnalytiClaw-Prefix.pch";
+				INFOPLIST_FILE = "AnalytiClawTests/AnalytiClawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF29115B19874758000CEB25 /* Build configuration list for PBXProject "AnalytiClaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF29118119874758000CEB25 /* Debug */,
+				CF29118219874758000CEB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF29118319874758000CEB25 /* Build configuration list for PBXNativeTarget "AnalytiClaw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF29118419874758000CEB25 /* Debug */,
+				CF29118519874758000CEB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF29118619874758000CEB25 /* Build configuration list for PBXNativeTarget "AnalytiClawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF29118719874758000CEB25 /* Debug */,
+				CF29118819874758000CEB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF29115819874758000CEB25 /* Project object */;
+}
